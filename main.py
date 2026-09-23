@@ -33,6 +33,7 @@ while(True):
         y=int(input("enter second number:"))
         divide(x,y)
     elif user_input == "q":
+        print("Exiting the calculator.")
         break
 
 

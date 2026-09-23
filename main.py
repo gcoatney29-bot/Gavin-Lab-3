@@ -9,13 +9,19 @@ def subract(x,y):
 # Function that divides two number
 def multiply(x,y):
     print(x*y)
-    
+
 # Function that multiplies two number 
 def divide(x,y):
     print(x/y)
+while(True):
+    user_input=input("would you like to (a)add (s)subract (m)multiply (d)divide")
+    if user_input=a:
 
+# Ask user for their frist and second number
+    x=int(input("enter the first number:"))
+    y=int(input("enter second number:"))
 
-add(5,6)
-subract(10,5)
-divide (64,4)
-multiply(100,5)
+add(x,y)
+subract(x,y)
+multiply(x,y)
+divide(x,y)

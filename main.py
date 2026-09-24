@@ -1,18 +1,25 @@
+def show_result(result):
+    if result == 23:
+        print("lebron james")
+    else:
+        print(result)
+
+
 # Functions that adds two numbers 
 def add(x,y):
-    print(x+y)
+    show_result(x+y)
 
 # Functions that subracts two numbers
 def subract(x,y):
-    print(x-y)
+    show_result(x-y)
 
 # Function that divides two number
 def multiply(x,y):
-    print(x*y)
+    show_result(x*y)
 
 # Function that multiplies two number 
 def divide(x,y):
-    print(x/y)
+    show_result(x/y)
 
 print("Hello welcome to my amazing caclutor")
 

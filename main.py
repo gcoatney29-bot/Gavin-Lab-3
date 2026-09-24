@@ -13,6 +13,9 @@ def multiply(x,y):
 # Function that multiplies two number 
 def divide(x,y):
     print(x/y)
+
+print("Hello welcome to my amazing caclutor")
+
 while(True):
     user_input=input("would you like to (a)add (s)subract (m)multiply (d)divide (q)quit:")
 
@@ -45,5 +48,8 @@ while(True):
         print("Exiting the calculator.")
         break
 
+#Makes sure code does crash if user types wrong letter.
+    else:
+        print("invaild input")
 
 
